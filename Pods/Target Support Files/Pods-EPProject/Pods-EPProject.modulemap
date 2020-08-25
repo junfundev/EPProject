@@ -1,0 +1,6 @@
+framework module Pods_EPProject {
+  umbrella header "Pods-EPProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:EPModules/EPBase/EPBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EPModules/EPService/EPService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EPModules/EPLaunch/EPLaunch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EPProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
