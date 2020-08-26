@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25C8E99C24F5FCA50021F88B /* EPBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C8E99B24F5FCA50021F88B /* EPBusiness.framework */; };
 		91EA900124F549BE0034F68D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA900024F549BE0034F68D /* AppDelegate.swift */; };
 		91EA900524F549BE0034F68D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA900424F549BE0034F68D /* ViewController.swift */; };
 		91EA900824F549BE0034F68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EA900624F549BE0034F68D /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		91EA902324F549C00034F68D /* EPProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA902224F549C00034F68D /* EPProjectUITests.swift */; };
 		91EA90B124F5640D0034F68D /* EPBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA90B024F5640D0034F68D /* EPBase.framework */; };
 		91EA90B524F564140034F68D /* EPService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA90B424F564140034F68D /* EPService.framework */; };
-		91EA90D524F566150034F68D /* EPLaunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA90D424F566150034F68D /* EPLaunch.framework */; };
 		B6E531B852C3AF4168C48DF3 /* Pods_EPProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7AC0B56B9E381FA63E38 /* Pods_EPProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25C8E99B24F5FCA50021F88B /* EPBusiness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EPBusiness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D856073CD714F2B5DE11FD /* Pods-EPProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPProject.release.xcconfig"; path = "Target Support Files/Pods-EPProject/Pods-EPProject.release.xcconfig"; sourceTree = "<group>"; };
 		627F7AC0B56B9E381FA63E38 /* Pods_EPProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6890911572E12B5E5E8955E2 /* Pods-EPProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPProject.debug.xcconfig"; path = "Target Support Files/Pods-EPProject/Pods-EPProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		91EA902424F549C00034F68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91EA90B024F5640D0034F68D /* EPBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EPBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EA90B424F564140034F68D /* EPService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EPService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91EA90D424F566150034F68D /* EPLaunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EPLaunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91EA90B524F564140034F68D /* EPService.framework in Frameworks */,
+				25C8E99C24F5FCA50021F88B /* EPBusiness.framework in Frameworks */,
 				91EA90B124F5640D0034F68D /* EPBase.framework in Frameworks */,
-				91EA90D524F566150034F68D /* EPLaunch.framework in Frameworks */,
 				B6E531B852C3AF4168C48DF3 /* Pods_EPProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +91,7 @@
 		6F663E859E9FDEB3C3FEFCCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91EA90D424F566150034F68D /* EPLaunch.framework */,
+				25C8E99B24F5FCA50021F88B /* EPBusiness.framework */,
 				91EA90B424F564140034F68D /* EPService.framework */,
 				91EA90B024F5640D0034F68D /* EPBase.framework */,
 				627F7AC0B56B9E381FA63E38 /* Pods_EPProject.framework */,

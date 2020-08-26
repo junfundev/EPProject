@@ -8,7 +8,7 @@
       location = "group:EPModules/EPService/EPService.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:EPModules/EPLaunch/EPLaunch.xcodeproj">
+      location = "group:EPModules/EPBusiness/EPBusiness.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:EPProject.xcodeproj">

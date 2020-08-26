@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EPLaunch
+import EPBusiness
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

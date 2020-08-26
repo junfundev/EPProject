@@ -22,4 +22,7 @@
    <FileRef
       location = "group:EPModules/EPService/EPService.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:EPModules/EPBusiness/EPBusiness.xcodeproj">
+   </FileRef>
 </Workspace>

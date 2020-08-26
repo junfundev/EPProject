@@ -20,6 +20,13 @@ target 'EPService' do
 end
 
 
+## EPBusiness业务库
+target 'EPBusiness' do
+  project "EPModules/EPBusiness/EPBusiness.xcodeproj"
+  
+end
+
+
 ## 主工程
 target 'EPProject' do
   project "EPProject.xcodeproj"
