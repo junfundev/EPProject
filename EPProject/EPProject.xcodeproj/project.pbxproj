@@ -88,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25C8E9A724F5FDFD0021F88B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				91EA900624F549BE0034F68D /* Main.storyboard */,
+				91EA900B24F549C00034F68D /* LaunchScreen.storyboard */,
+				91EA900E24F549C00034F68D /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		6F663E859E9FDEB3C3FEFCCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +145,8 @@
 			children = (
 				91EA900024F549BE0034F68D /* AppDelegate.swift */,
 				91EA900424F549BE0034F68D /* ViewController.swift */,
-				91EA900624F549BE0034F68D /* Main.storyboard */,
 				91EA900924F549C00034F68D /* Assets.xcassets */,
-				91EA900B24F549C00034F68D /* LaunchScreen.storyboard */,
-				91EA900E24F549C00034F68D /* Info.plist */,
+				25C8E9A724F5FDFD0021F88B /* Other */,
 			);
 			path = EPProject;
 			sourceTree = "<group>";
@@ -496,7 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3578QD2XL;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = EPProject/Info.plist;
+				INFOPLIST_FILE = EPProject/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3578QD2XL;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = EPProject/Info.plist;
+				INFOPLIST_FILE = EPProject/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
