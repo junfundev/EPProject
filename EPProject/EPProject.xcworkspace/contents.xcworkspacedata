@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:EPModules/EPLogin/EPLogin.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:EPModules/EPBase/EPBase.xcodeproj">
    </FileRef>
    <FileRef

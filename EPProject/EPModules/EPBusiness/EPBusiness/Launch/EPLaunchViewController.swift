@@ -17,17 +17,17 @@ class EPLaunchViewController: UIViewController {
         view.layer.borderColor = UIColor.red.cgColor
         view.layer.borderWidth = 1
         
-        let label = UILabel(frame: self.view.bounds)
-        label.text = "\(self)"
-        label.textColor = .red
-        label.font = boldDinProMedium(fontSize: 16)
-        label.numberOfLines = 0
-        label.backgroundColor = .lightGray
-        view.addSubview(label)
-        
-//        systemFontOfSize(fontSize: 10)        
-//        UIColor.RGB(red: 1, green: 1, blue: 1)
-        
+        let btn = UIButton(frame: view.bounds)
+        view.addSubview(btn)
+        btn.layer.borderColor = UIColor.red.cgColor
+        btn.layer.borderWidth = 1
+        btn.setTitle("我是启动页，点击进入APP", for: .normal)
+        btn.setTitleColor(.red, for: .normal)
+        btn.setTitleColor(.lightGray, for: .highlighted)
+        btn.addTarget(self, action: #selector(enterApp), for: .touchUpInside)
     }
 
+    @objc func enterApp() {
+        print("---- 进入APP ----")
+    }
 }

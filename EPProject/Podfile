@@ -34,3 +34,8 @@ target 'EPProject' do
   
 end
 
+
+# 通用库
+def common_pods
+
+end

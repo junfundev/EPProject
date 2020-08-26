@@ -1,8 +1,8 @@
 
 import UIKit
-import EPService
 import EPBase
 import SnapKit
+import EPService
 
 class ViewController: UIViewController {
 
@@ -12,9 +12,8 @@ class ViewController: UIViewController {
              
         let config = EPDomainConfig()
         print("\(config)")
-                
+
         print("\(api_test_2)")
-        
         
     }
 

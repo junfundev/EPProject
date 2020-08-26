@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25C8E99C24F5FCA50021F88B /* EPBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C8E99B24F5FCA50021F88B /* EPBusiness.framework */; };
+		25C8E9A824F60F780021F88B /* EPBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA90B024F5640D0034F68D /* EPBase.framework */; };
 		91EA900124F549BE0034F68D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA900024F549BE0034F68D /* AppDelegate.swift */; };
 		91EA900524F549BE0034F68D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA900424F549BE0034F68D /* ViewController.swift */; };
 		91EA900824F549BE0034F68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EA900624F549BE0034F68D /* Main.storyboard */; };
@@ -15,8 +16,6 @@
 		91EA900D24F549C00034F68D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EA900B24F549C00034F68D /* LaunchScreen.storyboard */; };
 		91EA901824F549C00034F68D /* EPProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA901724F549C00034F68D /* EPProjectTests.swift */; };
 		91EA902324F549C00034F68D /* EPProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA902224F549C00034F68D /* EPProjectUITests.swift */; };
-		91EA90B124F5640D0034F68D /* EPBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA90B024F5640D0034F68D /* EPBase.framework */; };
-		91EA90B524F564140034F68D /* EPService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA90B424F564140034F68D /* EPService.framework */; };
 		B6E531B852C3AF4168C48DF3 /* Pods_EPProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7AC0B56B9E381FA63E38 /* Pods_EPProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +55,6 @@
 		91EA902224F549C00034F68D /* EPProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPProjectUITests.swift; sourceTree = "<group>"; };
 		91EA902424F549C00034F68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91EA90B024F5640D0034F68D /* EPBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EPBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91EA90B424F564140034F68D /* EPService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EPService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91EA90B524F564140034F68D /* EPService.framework in Frameworks */,
+				25C8E9A824F60F780021F88B /* EPBase.framework in Frameworks */,
 				25C8E99C24F5FCA50021F88B /* EPBusiness.framework in Frameworks */,
-				91EA90B124F5640D0034F68D /* EPBase.framework in Frameworks */,
 				B6E531B852C3AF4168C48DF3 /* Pods_EPProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				25C8E99B24F5FCA50021F88B /* EPBusiness.framework */,
-				91EA90B424F564140034F68D /* EPService.framework */,
 				91EA90B024F5640D0034F68D /* EPBase.framework */,
 				627F7AC0B56B9E381FA63E38 /* Pods_EPProject.framework */,
 			);
